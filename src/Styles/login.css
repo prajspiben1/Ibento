@@ -1,0 +1,10 @@
+.loginCard{
+    background-color: rgba(24, 24, 24, 0.712) !important;
+}
+.loginTitle{
+    padding-bottom: 20px;
+    color: white;
+}
+.emailPassword{
+    color: white;
+}
