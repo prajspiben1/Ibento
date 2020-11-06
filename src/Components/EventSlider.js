@@ -31,12 +31,12 @@ export default class EventSlider extends Component{
               <div class="swiper-container">
               <div class="swiper-wrapper">
                 <div class="swiper-slide" >
-                  <a href="www.google.com">
+                  <a href="/revahack">
                   <img src={revaHack} />
                   </a>
                 </div>
                 <div class="swiper-slide" >
-                    <a href="">
+                    <a href="/filmfestival">
                   <img src={film} />
                   </a>
                 </div>

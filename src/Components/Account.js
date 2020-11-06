@@ -16,7 +16,7 @@ class Account extends Component {
             <Jumbotron className="myProfile">
             <Row>
                 
-                <Image src={Me} roundedCircle style={{width: "200px", height: "200px"}} />
+                <Image src={Me} roundedCircle style={{width: "200px",marginLeft: "60px", height: "200px"}} />
             <div className="details">
                 <h1>Sanjana Shivakumar</h1>
                 <div>

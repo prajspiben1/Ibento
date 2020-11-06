@@ -8,10 +8,9 @@ class Content extends Component {
     render() { 
         return ( 
             <div class="container">
-                {/* <img alt="" className="featuredEvent" src={revaHack} /> */}
+                
                 <br />
                 <WeeklyCalendar />
-
                 <Categories />
             </div>
          );

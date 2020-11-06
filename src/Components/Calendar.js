@@ -9,7 +9,7 @@ function CalendarUI() {
       <Container> 
           <Navbar className="welcome">
               <a href="/"><CaretLeft /></a>
-              <h3 className="addEventTitle">Your Schedule</h3>
+              <h3 className="scheduleTitle">Your Schedule</h3>
           </Navbar>
         <h2 className="month"> November </h2>
                 <Row className="justify-content-md-center">

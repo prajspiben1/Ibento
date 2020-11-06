@@ -6,11 +6,11 @@ import { faBookmark, faHome, faUserCircle } from '@fortawesome/free-solid-svg-ic
 import '../Styles/Navigation.css'
 
 const tabs = [{
-  route: "/home",
+  route: "/",
   icon: faHome,
   label: "Home"
 },{
-  route: "/search",
+  route: "/bookmarked",
   icon: faBookmark,
   label: "Bookmarked"
 },{

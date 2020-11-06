@@ -31,7 +31,7 @@ const Login = ({ history }) => {
   }
 
   return (
-    <div className="App">
+    <div className="loginContainer">
     <Navbar className="Appname">Ibento</Navbar>
     <Card className="loginCard" style={{ margin: "25px" }}>
         <Card.Body>
@@ -41,11 +41,11 @@ const Login = ({ history }) => {
           <form onSubmit={handleLogin}>
             <Form.Group id="email">
               <Form.Label className="emailPassword">Email</Form.Label>
-              <Form.Control name="email" type="email" required />
+              <Form.Control name="email" placeholder="Email address" type="email" required />
             </Form.Group>
             <Form.Group id="password">
               <Form.Label className="emailPassword">Password</Form.Label>
-              <Form.Control name="password" type="password" required />
+              <Form.Control name="password" placeholder="Password" type="password" required />
             </Form.Group>
             <br />
             <Button className="w-100" type="submit">
@@ -53,6 +53,8 @@ const Login = ({ history }) => {
             </Button>
           </form>
           <div className="w-100 text-center mt-3">
+            <br />
+            <br />
             <Link to="/signup">New to Ibento? Create An Account</Link>
           </div>
         </Card.Body>

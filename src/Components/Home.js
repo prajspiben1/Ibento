@@ -10,7 +10,7 @@ import "../Styles/Home.css"
 
 const Home = () => {
   return (
-    <div className="row no-gutters">
+    <div className="row no-gutters homePage">
 
     <Navbar className="welcome">
       Welcome, Sanjana

@@ -1,6 +1,9 @@
 *{
     cursor: pointer;
 }
+.scheduleTitle{
+    margin-left: 40px;
+}
 .month{
     color: white;
     padding-top: 50px;
