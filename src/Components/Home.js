@@ -27,6 +27,8 @@ const Home = () => {
       Add Event
     </Button>
     <br />
+    <br /><br />
+    <br /><br />
 
       {/* bottom navigation */}
 

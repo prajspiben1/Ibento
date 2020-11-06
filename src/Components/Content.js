@@ -8,8 +8,7 @@ class Content extends Component {
     render() { 
         return ( 
             <div class="container">
-                
-                <br />
+            
                 <WeeklyCalendar />
                 <Categories />
             </div>

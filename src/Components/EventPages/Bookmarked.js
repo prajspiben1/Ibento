@@ -27,7 +27,6 @@ class Bookmarked extends Component {
                     <img className="bookmarkedPosters" src={hack} />
                 </Col>
             </Row>
-            <a href='/' className="browse">Browse More Events > </a>
             <Navigation />
         </div> 
         );
