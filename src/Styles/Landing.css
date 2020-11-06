@@ -12,9 +12,7 @@
 }
 
 body{
-  background-image: url('./gradient.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
+  height: 1000px;
 }
 .navButton{
     padding: 15px;
@@ -34,8 +32,6 @@ img{
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-
-
   /* Center slide text vertically */
   display: -webkit-box;
   display: -ms-flexbox;
@@ -50,7 +46,7 @@ img{
   -webkit-align-items: center;
   align-items: center;
 }
-img{
+swiper-slide:img{
   border-radius: 50%;
 }
 .centered {

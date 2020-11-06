@@ -1,0 +1,50 @@
+.day{
+    color: white;
+}
+.date{
+    color: white;
+    font-weight: bolder;
+    margin-left: 6px;
+}
+
+.activeDay{
+    font-size: 25px;
+    font-weight: bolder;
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+    cursor: pointer;
+}
+.activeDate{
+    font-size: 25px;
+    color: rgb(255, 0, 0);
+    font-weight: bolder;
+    margin-left: 6px;
+    cursor: pointer;
+}
+
+
+/* Event tags */
+.registeredEventTag {
+    height: 6px;
+    width: 6px;
+    background-color: rgb(55, 0, 255);
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 33px;
+  }
+  .featuredEventTag {
+    height: 6px;
+    width: 6px;
+    background-color: rgb(255, 251, 0);
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 52px;
+  }
+  .annualEventTag {
+    height: 6px;
+    width: 6px;
+    background-color: rgb(21, 255, 0);
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 45px;
+  }

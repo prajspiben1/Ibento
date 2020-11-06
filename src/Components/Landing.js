@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-import './Styles/Landing.css'
+import '../Styles/Landing.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Navbar } from 'react-bootstrap';
 import 'swiper/swiper-bundle.css';
 import Swiper, { Navigation, Pagination } from 'swiper';
 
-import collaborate from './Styles/collaborate.jpg'
-import conduct from './Styles/conduct.jpg'
-import learn from './Styles/learn.jpg'
+import collaborate from '../Styles/collaborate.jpg'
+import conduct from '../Styles/conduct.jpg' 
+import learn from '../Styles/learn.jpg' 
 
 
 Swiper.use([Navigation, Pagination]);
@@ -34,7 +34,7 @@ componentDidMount() {
                 <br />
                 <div class="jumbotron-fluid">
                 <div class="container">
-                    <h1 class="display-5">Collaborate. Organize. Learn</h1>
+                    <h1 class="display-5">Collaborate. Organize. Learn.</h1>
                     <p class="lead">An all in one patform for promoting and organizing events, workshops and seminars.
                     No more missing out!</p>
                 </div>
