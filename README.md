@@ -2,9 +2,7 @@
 
    . We invite you to try it.
    
-## COLLABORATE.
-
-#### ORGANIZE. LEARN
+## COLLABORATE. ORGANIZE. LEARN
 
 An all in one platform for promoting and organizing events, workshops and seminars. No more missing out! 
 
