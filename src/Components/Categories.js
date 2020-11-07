@@ -10,42 +10,23 @@ class Categories extends Component {
                 Categories
                 <br />
                 <br />
-                <Container>
-                    <Row>
-                        <Col xs={3}>
+                    <Row class="container" className="categoriesRow">
+                        <Col xs={3} sm={3} md={3} lg={3}>
                             <p className="artsCategory">Arts</p>
                         </Col>
-                        <Col xs={3}>
+                        <Col xs={3} sm={3} md={3} lg={3}>
                             <p className="sportsCategory">Sports</p>
                         </Col>
-                        <Col xs={3}>
+                        <Col xs={3} sm={3} md={3} lg={3}>
                             <p className="codingCategory">Coding</p>
                         </Col>
-                        <Col xs={3}>
+                        <Col xs={3} sm={3} md={3} lg={3}>
                             <p className="eventsCategory">Events</p>
                         </Col>
 
                     </Row>
-                </Container>
-                
-                
-                {/* <div class="row lg-12">
-                <div class="col" className="categoriesAvailable">
-                    <p>Arts</p>
-                </div>
-                <div class="col" className="categoriesAvailable">
-                    <p>Sports</p>
-                </div>
-                <div class="col" className="categoriesAvailable">
-                    <p>Coding</p>
-                </div>
-                <div class="col" className="categoriesAvailable">
-                    <p>Events</p>
-                </div>
-                <div class="col" className="categoriesAvailable" >
-                    <p>Competitions</p>
-                </div>
-            </div> */}
+            
+            
         </div>
          );
     }

@@ -15,15 +15,18 @@ class RevaHack extends Component {
         </Navbar>
         <Jumbotron className="eventDetails">
         <Row>
-        <Col xs={12}>
-        <Image src={revahack} className="imgPoster" />
-        </Col>
+            <Col xs={12} sm={12} md={6} lg={6}>
+            <Image src={revahack} className="imgPoster" />
+            </Col>
+            <Col xs={12} sm={12} md={6} lg={6}>
+            <p className="revahackDescription">
+                REVA HACK 2020 is an Online Hackathon, which means it provides you the opportunity to participate directly from your Home. Hefty Cash prizes and goodies for the winners.
+            </p>
+            <Button variant="primary" className="revahackRegister">Register</Button>
+            </Col>
         </Row>
         <p>
-            REVA HACK 2020 is an Online Hackathon, which means it provides you the opportunity to participate directly from your Home. Hefty Cash prizes and goodies for the winners.
-        </p>
-        <p>
-            <Button variant="primary">Register</Button>
+           
         </p>
         </Jumbotron>
 

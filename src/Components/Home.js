@@ -12,36 +12,22 @@ const Home = () => {
   return (
     <div className="row no-gutters homePage">
 
-    <Navbar className="welcome">
-      Welcome, Sanjana
-    </Navbar>
+      <Navbar className="welcome">
+        Welcome, Sanjana
+      </Navbar>
 
-    <Content />
-    <br />
+      {/* In this Home page, three other components are being rendered */}
 
-    <EventSlider />
-    <Navigation />
-    <br />
+      <Content />
 
-    <Button href="/addevent" className="addEvent" size="lg">
-      Add Event
-    </Button>
-    <br />
-    <br /><br />
-    <br /><br />
-
-      {/* bottom navigation */}
-
-      {/* <Navbar fixed="bottom" className="homeNavbar">
-        <div className="navIcons">
-        <Icon.HouseDoor className="home" size={35} />
-        <Icon.BookmarkHeart className="bookmark" size={35} />
-        <Icon.Search className="find" size={35} />
-        <Icon.Person className="profile" size={45} />
-        </div>
-      </Navbar> */}
-      
-    {/* <button onClick={() => app.auth().signOut()}>Sign out</button> */}
+      <EventSlider />
+      <Navigation />
+      <Button href="/addevent" className="addEvent" size="lg">
+        Add Event
+      </Button>
+      <br />
+      <br /><br />
+      <br /><br />
     </div>
   );
 };

@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
 import '../Styles/WeeklyCalendar.css'
 
 class WeeklyCalendar extends Component {
 
     render() { 
         return (
-            <Container>
+            <div>
                 <Row className="justify-content-md-center">
                     <Col xs={2}>
                         <p className="day">Mon</p>
@@ -36,7 +36,7 @@ class WeeklyCalendar extends Component {
                         <p className="date">7</p>
                     </Col>
                 </Row>
-            </Container>
+            </div>
           );
     }
 }

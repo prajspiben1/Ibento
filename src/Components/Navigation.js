@@ -23,7 +23,7 @@ const Navigation = (props) => {
 
   return (
     <div>
-    <nav className="bottomNavigation navbar fixed-bottom navbar-light d-block d-lg-none bottom-tab-nav" role="navigation">
+    <nav className="bottomNavigation navbar fixed-bottom navbar-light d-block bottom-tab-nav" role="navigation">
       <Nav className="w-100">
         <div className=" d-flex flex-row justify-content-around w-100">
           {

@@ -11,7 +11,7 @@ function CalendarUI() {
               <a href="/"><CaretLeft /></a>
               <h3 className="scheduleTitle">Your Schedule</h3>
           </Navbar>
-        <h2 className="month"> November </h2>
+          <h2 className="month"> November </h2>
                 <Row className="justify-content-md-center">
 
                     <Col xs={2}>
@@ -19,9 +19,9 @@ function CalendarUI() {
                         <p className="date">2</p>
                         <div className="temp">
                         <p className="mandatoryDate">9</p>
-                          <div className="theEvent">
+                        <div className="theEvent">
                             Art Exhibition
-                          </div>
+                        </div>
                         </div>
                         <p className="date">16</p>
                         <p className="date">23</p>

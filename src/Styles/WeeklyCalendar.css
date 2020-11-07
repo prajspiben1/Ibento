@@ -8,6 +8,7 @@
 }
 
 .activeDay{
+    text-align: center;
     font-size: 25px;
     font-weight: bolder;
     color: rgb(255, 0, 0);
@@ -15,10 +16,10 @@
     cursor: pointer;
 }
 .activeDate{
+    text-align: center;
     font-size: 25px;
     color: rgb(255, 0, 0);
     font-weight: bolder;
-    margin-left: 6px;
     cursor: pointer;
 }
 
@@ -38,7 +39,7 @@
     background-color: rgb(255, 251, 0);
     border-radius: 50%;
     position: absolute;
-    margin-left: 52px;
+    margin-left: 54px;
   }
   .annualEventTag {
     height: 6px;

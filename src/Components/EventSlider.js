@@ -16,7 +16,6 @@ export default class EventSlider extends Component{
         var swiper = new Swiper('.swiper-container', {
             loop: true,
             grabCursor: true,
-            spaceBetween: 20,
             pagination: {
               el: '.swiper-pagination',
               clickable: true,
@@ -27,37 +26,37 @@ export default class EventSlider extends Component{
     render(){
 
         return(
-            <div class="container-fluid">
+            <div class="container" >
               <div class="swiper-container">
               <div class="swiper-wrapper">
                 <div class="swiper-slide" >
                   <a href="/revahack">
-                  <img src={revaHack} />
+                  <img alt="" src={revaHack} />
                   </a>
                 </div>
                 <div class="swiper-slide" >
                     <a href="/filmfestival">
-                  <img src={film} />
+                  <img alt="" src={film} />
                   </a>
                 </div>
                 <div class="swiper-slide" >
-                    <a href="">
-                  <img src={create} />
+                    <a href="/revahack">
+                  <img alt="" src={create} />
                   </a>
                 </div>
                 <div class="swiper-slide" >
-                    <a href="">
-                  <img src={sports} />
+                    <a href="/revahack">
+                  <img alt="" src={sports} />
                   </a>
                 </div>
                 <div class="swiper-slide" >
-                    <a href="">
-                  <img src={arts} />
+                    <a href="/revahack">
+                  <img alt="" src={arts} />
                   </a>
                 </div>
                 <div class="swiper-slide" >
-                    <a href="">
-                  <img src={hack} />
+                    <a href="/revahack">
+                  <img alt="" src={hack} />
                   </a>
                 </div>
             </div>
