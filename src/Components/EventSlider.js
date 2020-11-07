@@ -27,6 +27,10 @@ export default class EventSlider extends Component{
 
         return(
             <div class="container" >
+
+            {/* Here we use Swiper touch slider for a resposnsive,
+            and for efficient native behaviour */}
+
               <div class="swiper-container">
               <div class="swiper-wrapper">
                 <div class="swiper-slide" >

@@ -8,7 +8,10 @@ class Content extends Component {
     render() { 
         return ( 
             <div class="container">
-            
+                
+                {/* This container class was used to test, and render
+                the weekly calendar and categories component */}
+
                 <WeeklyCalendar />
                 <Categories />
             </div>

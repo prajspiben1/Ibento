@@ -1,11 +1,8 @@
 import React from "react";
 import { Navbar, Button } from 'react-bootstrap'
 import EventSlider from './EventSlider';
-import JustAdded from './JustAdded'
 import Navigation from '../Components/Navigation'
-import * as Icon from 'react-bootstrap-icons';
 import Content from '../Components/Content'
-import app from "../Authentication/Firebase";
 import "../Styles/Home.css"
 
 const Home = () => {
@@ -22,7 +19,7 @@ const Home = () => {
 
       <EventSlider />
       <Navigation />
-      <Button href="/addevent" className="addEvent" size="lg">
+      <Button href="/addevent" variant="outline-primary" className="addEvent" size="lg">
         Add Event
       </Button>
       <br />

@@ -28,16 +28,15 @@
     padding: 10px;
     font-size: 15px;
     width: 80px;
-    background-color: rgb(255, 0, 55);
+    background-color: rgb(255, 0, 0);
     text-align: center;
     border-radius: 10px;
-    margin-right: 60px;
 }
 .eventsCategory{
     padding: 9px;
     font-size: 15px;
     width: 80px;
-    background-color: rgba(194, 19, 185, 0.74);
+    background-color: rgba(255, 251, 0, 0.678);
     text-align: center;
     border-radius: 10px;
 }
