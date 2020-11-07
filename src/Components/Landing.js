@@ -21,7 +21,7 @@ class landing extends Component {
                 <div class="jumbotron-fluid" className="jumbotronInfo">
                 <div class="container">
                     <h1 class="display-5">Collaborate. Organize. Learn.</h1>
-                    <p class="lead">An all in one patform for promoting and organizing events, workshops and seminars.
+                    <p class="lead">An all in one platform for promoting and organizing events, workshops and seminars.
                     No more missing out!</p>
                 </div>
                 </div>
